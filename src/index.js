@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Game from './Games';
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
@@ -7,8 +8,7 @@ import ReactDOM from 'react-dom';
 function App() {
   return (
     <div className='App'>
-      <h1>Hello david</h1>
-      <h2>start</h2>
+      <Game />
     </div>
   );
 }
